@@ -1,0 +1,270 @@
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\Смирнов Д\loj\bin\Debug\loj.exe, файл: c:\codeblocks\codeblocks\mingw\include\txlib.h, строка: 14248, функция: intptr_t {anonymous}::TX::txPlayVideo(int, int, int, int, const char*, double, double, HWND),
+
+Сообщение: Возможно, окно рисования не создано или не в порядке.
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x004F32FC (32-bit), Flags: CMdre0, Thread: 0x1018 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0041944E in D:\Смирнов Д\loj\bin\Debug\loj.exe: txPlayVideo() at c:/codeblocks/codeblocks/mingw/include/txlib.h (14248)
+# 1 0x00419EC8 in D:\Смирнов Д\loj\bin\Debug\loj.exe: txPlayVideo() at c:/codeblocks/codeblocks/mingw/include/txlib.h (14400)
+# 2 0x00403F4C in D:\Смирнов Д\loj\bin\Debug\loj.exe: _txCleanup() at c:/codeblocks/codeblocks/mingw/include/txlib.h (9082)
+# 3 0x004038B9 in D:\Смирнов Д\loj\bin\Debug\loj.exe: _txOnCExit() at c:/codeblocks/codeblocks/mingw/include/txlib.h (8894)
+# 4 0x00401284 in D:\Смирнов Д\loj\bin\Debug\loj.exe: __mingw_CRTStartup()
+# 5 0x004012C5 in D:\Смирнов Д\loj\bin\Debug\loj.exe: WinMainCRTStartup()
+# 6 0x777B80CE in C:\Windows\SYSTEM32\ntdll.dll: RtlGetAppContainerNamedObjectPath()
+# 7 0x777B809E in C:\Windows\SYSTEM32\ntdll.dll: RtlGetAppContainerNamedObjectPath()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\codeblocks\mingw\include\txlib.h
+Compiled:	Sep 10 2024 18:43:27, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Sep 10 2024 18:43:54
+
+Run file:	D:\Смирнов Д\loj\bin\Debug\loj.exe
+Directory:	D:\Смирнов Д\loj
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\Смирнов Д\loj\bin\Debug\loj.exe, файл: c:\codeblocks\codeblocks\mingw\include\txlib.h, строка: 8709, функция: HWND__* {anonymous}::TX::txCreateWindow(double, double, bool),
+
+Сообщение: Окно рисования уже создано!
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x004F32FC (32-bit), Flags: CMdRe0, Thread: 0x2D14 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00402D2A in D:\Смирнов Д\loj\bin\Debug\loj.exe: txCreateWindow() at c:/codeblocks/codeblocks/mingw/include/txlib.h (8709)
+
+# 1 0x0041C450 in D:\Смирнов Д\loj\bin\Debug\loj.exe: main() at D:/Смирнов Д/loj/main.cpp (13):
+
+     11:     int a = 10;
+     12:     using namespace std;
+=>   13:     txCreateWindow (800, 600);
+     14: 
+     15:     /*
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\codeblocks\mingw\include\txlib.h
+Compiled:	Sep 12 2024 18:16:04, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Sep 12 2024 18:16:23
+
+Run file:	D:\Смирнов Д\loj\bin\Debug\loj.exe
+Directory:	D:\Смирнов Д\loj
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\Смирнов Д\loj\bin\Debug\loj.exe, файл: c:\codeblocks\codeblocks\mingw\include\txlib.h, строка: 8709, функция: HWND__* {anonymous}::TX::txCreateWindow(double, double, bool),
+
+Сообщение: Окно рисования уже создано!
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x004F32FC (32-bit), Flags: CMdRe0, Thread: 0x2DC8 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00402D2A in D:\Смирнов Д\loj\bin\Debug\loj.exe: txCreateWindow() at c:/codeblocks/codeblocks/mingw/include/txlib.h (8709)
+
+# 1 0x0041C450 in D:\Смирнов Д\loj\bin\Debug\loj.exe: main() at D:/Смирнов Д/loj/main.cpp (13):
+
+     11:     int a = 10;
+     12:     using namespace std;
+=>   13:     txCreateWindow (800, 600);
+     14: 
+     15:     /*
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\codeblocks\mingw\include\txlib.h
+Compiled:	Sep 12 2024 18:16:04, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Sep 12 2024 18:16:38
+
+Run file:	D:\Смирнов Д\loj\bin\Debug\loj.exe
+Directory:	D:\Смирнов Д\loj
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\Смирнов Д\loj\bin\Debug\loj.exe, файл: c:\codeblocks\codeblocks\mingw\include\txlib.h, строка: 8709, функция: HWND__* {anonymous}::TX::txCreateWindow(double, double, bool),
+
+Сообщение: Окно рисования уже создано!
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x004F32FC (32-bit), Flags: CMdRe0, Thread: 0x1268 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00402D2A in D:\Смирнов Д\loj\bin\Debug\loj.exe: txCreateWindow() at c:/codeblocks/codeblocks/mingw/include/txlib.h (8709)
+
+# 1 0x0041C450 in D:\Смирнов Д\loj\bin\Debug\loj.exe: main() at D:/Смирнов Д/loj/main.cpp (13):
+
+     11:     int a = 10;
+     12:     using namespace std;
+=>   13:     txCreateWindow (800, 600);
+     14: 
+     15:     /*
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\codeblocks\mingw\include\txlib.h
+Compiled:	Sep 12 2024 18:16:04, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Sep 12 2024 18:16:45
+
+Run file:	D:\Смирнов Д\loj\bin\Debug\loj.exe
+Directory:	D:\Смирнов Д\loj
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\Смирнов Д\loj\bin\Debug\loj.exe, файл: c:\codeblocks\codeblocks\mingw\include\txlib.h, строка: 8709, функция: HWND__* {anonymous}::TX::txCreateWindow(double, double, bool),
+
+Сообщение: Окно рисования уже создано!
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x004F32FC (32-bit), Flags: CMdRe0, Thread: 0x25FC (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00402D2A in D:\Смирнов Д\loj\bin\Debug\loj.exe: txCreateWindow() at c:/codeblocks/codeblocks/mingw/include/txlib.h (8709)
+
+# 1 0x0041C450 in D:\Смирнов Д\loj\bin\Debug\loj.exe: main() at D:/Смирнов Д/loj/main.cpp (13):
+
+     11:         int a = 10;
+     12:         using namespace std;
+=>   13:         txCreateWindow (800, 600);
+     14: 
+     15:         /*
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\codeblocks\mingw\include\txlib.h
+Compiled:	Sep 12 2024 18:17:22, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Sep 12 2024 18:17:42
+
+Run file:	D:\Смирнов Д\loj\bin\Debug\loj.exe
+Directory:	D:\Смирнов Д\loj
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\Смирнов Д\loj\bin\Debug\loj.exe, файл: c:\codeblocks\codeblocks\mingw\include\txlib.h, строка: 14248, функция: intptr_t {anonymous}::TX::txPlayVideo(int, int, int, int, const char*, double, double, HWND),
+
+Сообщение: Возможно, окно рисования не создано или не в порядке.
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x004F32FC (32-bit), Flags: CMdre0, Thread: 0x1FE8 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0041944E in D:\Смирнов Д\loj\bin\Debug\loj.exe: txPlayVideo() at c:/codeblocks/codeblocks/mingw/include/txlib.h (14248)
+# 1 0x00419EC8 in D:\Смирнов Д\loj\bin\Debug\loj.exe: txPlayVideo() at c:/codeblocks/codeblocks/mingw/include/txlib.h (14400)
+# 2 0x00403F4C in D:\Смирнов Д\loj\bin\Debug\loj.exe: _txCleanup() at c:/codeblocks/codeblocks/mingw/include/txlib.h (9082)
+# 3 0x004038B9 in D:\Смирнов Д\loj\bin\Debug\loj.exe: _txOnCExit() at c:/codeblocks/codeblocks/mingw/include/txlib.h (8894)
+# 4 0x00401284 in D:\Смирнов Д\loj\bin\Debug\loj.exe: __mingw_CRTStartup()
+# 5 0x004012C5 in D:\Смирнов Д\loj\bin\Debug\loj.exe: WinMainCRTStartup()
+# 6 0x772A80CE in C:\Windows\SYSTEM32\ntdll.dll: RtlGetAppContainerNamedObjectPath()
+# 7 0x772A809E in C:\Windows\SYSTEM32\ntdll.dll: RtlGetAppContainerNamedObjectPath()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\codeblocks\mingw\include\txlib.h
+Compiled:	Sep 24 2024 19:02:49, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Sep 24 2024 19:03:12
+
+Run file:	D:\Смирнов Д\loj\bin\Debug\loj.exe
+Directory:	D:\Смирнов Д\loj
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\Смирнов Д\loj\bin\Debug\loj.exe, файл: c:\codeblocks\codeblocks\mingw\include\txlib.h, строка: 14248, функция: intptr_t {anonymous}::TX::txPlayVideo(int, int, int, int, const char*, double, double, HWND),
+
+Сообщение: Возможно, окно рисования не создано или не в порядке.
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x004F32FC (32-bit), Flags: CMdre0, Thread: 0x1C2C (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0041944E in D:\Смирнов Д\loj\bin\Debug\loj.exe: txPlayVideo() at c:/codeblocks/codeblocks/mingw/include/txlib.h (14248)
+# 1 0x00419EC8 in D:\Смирнов Д\loj\bin\Debug\loj.exe: txPlayVideo() at c:/codeblocks/codeblocks/mingw/include/txlib.h (14400)
+# 2 0x00403F4C in D:\Смирнов Д\loj\bin\Debug\loj.exe: _txCleanup() at c:/codeblocks/codeblocks/mingw/include/txlib.h (9082)
+# 3 0x004038B9 in D:\Смирнов Д\loj\bin\Debug\loj.exe: _txOnCExit() at c:/codeblocks/codeblocks/mingw/include/txlib.h (8894)
+# 4 0x00401284 in D:\Смирнов Д\loj\bin\Debug\loj.exe: __mingw_CRTStartup()
+# 5 0x004012C5 in D:\Смирнов Д\loj\bin\Debug\loj.exe: WinMainCRTStartup()
+# 6 0x772A80CE in C:\Windows\SYSTEM32\ntdll.dll: RtlGetAppContainerNamedObjectPath()
+# 7 0x772A809E in C:\Windows\SYSTEM32\ntdll.dll: RtlGetAppContainerNamedObjectPath()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\codeblocks\mingw\include\txlib.h
+Compiled:	Sep 24 2024 19:04:24, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Sep 24 2024 19:04:47
+
+Run file:	D:\Смирнов Д\loj\bin\Debug\loj.exe
+Directory:	D:\Смирнов Д\loj
+
+--------------------------------------------------

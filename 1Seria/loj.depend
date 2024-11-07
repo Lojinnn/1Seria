@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1727191496 source:d:\смирнов д\loj\main.cpp
+	"TXLib.h"
+	"windows.h"
+	"iostream"
+
